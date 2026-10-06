@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* evita que o menu cubra o titulo da secao ao clicar numa ancora */
+#inicio,
+#lancamentos,
+#proximoJogo,
+#estatisticas,
+#lojas {
+  scroll-margin-top: 90px;
+}
