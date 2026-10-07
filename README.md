@@ -1,16 +1,30 @@
-# React + Vite
+# Gamezone - Landing Page em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page do Gamezone feita em React (Vite), unindo a página inicial do site do grupo com a minha página de Lojas Parceiras.
 
-Currently, two official plugins are available:
+## Autor
+[Thalles henrique lima galdino braz] - GitHub: Thallesxz
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Links
+- Site (Netlify): [(https://benevolent-cocada-275be7.netlify.app/)]
+- Repositório: https://github.com/Thallesxz/landing-gamezone
 
-## React Compiler
+## Origem
+O site original é o trabalho em grupo Gamezone (HTML, CSS e JavaScript). Esta landing page reúne o conteúdo da página inicial (menu, banner, lançamentos, gêneros, estatísticas e rodapé) com a minha página de Lojas Parceiras, em uma única página. Os HTMLs originais estão na pasta `referencia-html/`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## O que foi feito
+- Cada seção é um componente React (src/components).
+- Dados repetidos (jogos, gêneros, estatísticas, lojas, menu) ficam em arrays e são exibidos com map().
+- useState: menu aberto/fechado e filtro de lojas por estado. useRef: rolagem do carrossel.
+- Menu com âncoras para cada seção; um único menu, um único rodapé e um único H1.
+- CSS do grupo mantido (Bootstrap 4, style.css e lojaf.css).
 
-## Expanding the Oxlint configuration
+## Créditos
+- Bootstrap, Bootstrap Icons e Google Fonts (Bebas Neue, Rajdhani, Tektur).
+- Imagens e CSS do projeto do grupo Gamezone: [nomes do grupo].
+- [Citar o uso de assistente de IA como apoio, conforme as regras do trabalho]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Como rodar
+1. npm install
+2. npm run dev (abre em http://localhost:5173)
+3. npm run build (gera a pasta dist para publicação)
