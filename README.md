@@ -22,7 +22,7 @@ O site original é o trabalho em grupo Gamezone (HTML, CSS e JavaScript). Esta l
 ## Créditos
 - Bootstrap, Bootstrap Icons e Google Fonts (Bebas Neue, Rajdhani, Tektur).
 - Imagens e CSS do projeto do grupo Gamezone: [nomes do grupo].
-- [Citar o uso de assistente de IA como apoio, conforme as regras do trabalho]
+- [Claude foi usado com apoio]
 
 ## Como rodar
 1. npm install
